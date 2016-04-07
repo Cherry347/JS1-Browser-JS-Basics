@@ -1,6 +1,4 @@
-var tripleFive= function(n) {
-    for(var i= 0; i < 3; i ++) {
-        console.log(n)
-    }
+var lastLetter= function(n) {
+    return n[n.length -1];
 }
-tripleFive("Five!");
+lastLetter("cherry")
