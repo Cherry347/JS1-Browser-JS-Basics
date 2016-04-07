@@ -1,2 +1,6 @@
-var greeting= alert ('Hello Boulder!');
-console.log(greeting)
+var tripleFive= function(n) {
+    for(var i= 0; i < 3; i ++) {
+        console.log(n)
+    }
+}
+tripleFive("Five!");
