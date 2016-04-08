@@ -1,2 +1,0 @@
-var greeting= prompt("Hello, please enter a word.");
-var userAnswer= alert("You entered: " + greeting + "\nThere are " + greeting.length + " letters in your word." + "\nThe third letter of your word is '" + greeting.charAt(2) + "'." + "\nLowercase: " + greeting.toLowerCase() + "\nUppercase: " + greeting.toUpperCase() + "\nExample: My word '" + greeting + "' is the best word ever!" + "\nSubword: " + greeting.substring(1,4));
